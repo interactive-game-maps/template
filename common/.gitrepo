@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:interactive-game-maps/common.git
+	branch = master
+	commit = 8fb887862f3448640817a16a6ed66deafb676b2c
+	parent = c46d0c0f6afc7789a0db7d34e9e03eb8d18675d5
+	method = merge
+	cmdver = 0.4.3
