@@ -9,7 +9,9 @@
 // Step 1:
 // Initialize the map with basic information
 var interactive_map = new InteractiveMap('map', {
+    // This will limit automatic zooming to this zoom level
     max_good_zoom: 6,
+    // This is the max zoom the map will allow
     max_map_zoom: 8,
     website_source: 'https://github.com/interactive-game-maps/template',
     website_subdir: 'template',

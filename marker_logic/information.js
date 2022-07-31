@@ -82,6 +82,14 @@ function addInformation(map) {
                 fillColor: 'red',
                 fillOpacity: 0.2
             };
+        },
+
+        // If the coordinates are extracted from the game files they might need a transformation to
+        // map correctly
+        coordsToLatLng: function (coords) {
+            var lx = (coords[0] + 1) * 0.5;
+            var ly = (coords[1] - 1) * 0.5;
+            return L.latLng(ly, lx);
         }
 
         // Some additional notes:
