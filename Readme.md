@@ -1,8 +1,11 @@
 # Using the template
+If you have any questions: https://github.com/interactive-game-maps/template/discussions
+
 ## Requirements
 * A high quality picture of your desired map.
 * Basic git knowledge. You should be aware of cloning locally, committing and pushing your changes.
 * Basic programming knowledge. Understanding and editing this example is sufficient for simple things.
+* Know how to run python scripts.
 
 ## General steps
 1. Create a copy of this repository. GitHub makes this easy with "Use this template".
@@ -23,5 +26,3 @@
 * Add or edit marker positions in `marker`.
 * Add or edit marker behavior and look in `marker_logic`.
 * Include added files in the `index.html` body.
-
-If you have any questions: https://github.com/interactive-game-maps/template/discussions
